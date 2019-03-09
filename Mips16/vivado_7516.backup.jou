@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 21 14:28:19 2017
+# Process ID: 7516
+# Current directory: C:/Users/DanB/Desktop/ProcesorFinal/Mips16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent820 C:\Users\DanB\Desktop\ProcesorFinal\Mips16\Mips16.xpr
+# Log file: C:/Users/DanB/Desktop/ProcesorFinal/Mips16/vivado.log
+# Journal file: C:/Users/DanB/Desktop/ProcesorFinal/Mips16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DanB/Desktop/ProcesorFinal/Mips16/Mips16.xpr
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/EX.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/EX.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/ID.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/IF.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MPG.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/MPG.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MemoryData.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/MemoryData.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RAM.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/RAM.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RF.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/RF.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ROM.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/ROM.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/UC.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/UC.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/ssg.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd -to_files C:/Users/DanB/Desktop/MipsFinal/test_env.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+update_files -from_files {{C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc}} -to_files {{D:/Faculta/Anul II/Sem II/AC lab/Basys3_test_env.xdc}} -filesets [get_filesets *]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 20 23:15:48 2017
+# Process ID: 4084
+# Current directory: C:/Users/Flo/Desktop/ProcesorFinal/Mips16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3156 C:\Users\Flo\Desktop\ProcesorFinal\Mips16\Mips16.xpr
+# Log file: C:/Users/Flo/Desktop/ProcesorFinal/Mips16/vivado.log
+# Journal file: C:/Users/Flo/Desktop/ProcesorFinal/Mips16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Flo/Desktop/ProcesorFinal/Mips16/Mips16.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Faculta/XilinxAN2SEM2/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 812.477 ; gain = 141.402
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 00:19:23 2017...

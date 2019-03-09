@@ -1,0 +1,586 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 21 15:35:17 2017
+# Process ID: 5264
+# Current directory: C:/Users/DanB/Desktop/ProcesorFinal/Mips16/Mips16.runs/synth_1
+# Command line: vivado.exe -log test_env.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_env.tcl
+# Log file: C:/Users/DanB/Desktop/ProcesorFinal/Mips16/Mips16.runs/synth_1/test_env.vds
+# Journal file: C:/Users/DanB/Desktop/ProcesorFinal/Mips16/Mips16.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test_env.tcl -notrace
+Command: synth_design -top test_env -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9784 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 283.375 ; gain = 72.191
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'test_env' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:45]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MPG.vhd:34' bound to instance 'MPG1' of component 'MPG' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'MPG' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MPG.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (1#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MPG.vhd:40]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MPG.vhd:34' bound to instance 'MPG2' of component 'MPG' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:205]
+INFO: [Synth 8-3491] module 'IFetch' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:34' bound to instance 'I_F' of component 'IFetch' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'IFetch' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:47]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ROM.vhd:34' bound to instance 'MEMORIE' of component 'ROM' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (2#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ROM.vhd:40]
+WARNING: [Synth 8-614] signal 'adr_branch' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:85]
+WARNING: [Synth 8-614] signal 'iesireAdder' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:85]
+WARNING: [Synth 8-614] signal 'adr_jump' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:94]
+WARNING: [Synth 8-614] signal 'iesireMux1' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:94]
+INFO: [Synth 8-256] done synthesizing module 'IFetch' (3#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/IF.vhd:47]
+INFO: [Synth 8-3491] module 'UC' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/UC.vhd:34' bound to instance 'UC1' of component 'UC' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'UC' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/UC.vhd:49]
+INFO: [Synth 8-226] default block is never used [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/UC.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'UC' (4#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/UC.vhd:49]
+INFO: [Synth 8-3491] module 'ID' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:34' bound to instance 'ID1' of component 'ID' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:51]
+INFO: [Synth 8-3491] module 'RF' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RF.vhd:34' bound to instance 'RF1' of component 'RF' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'RF' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RF.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'RF' (5#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RF.vhd:47]
+INFO: [Synth 8-226] default block is never used [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:82]
+WARNING: [Synth 8-614] signal 'Instruction' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:80]
+INFO: [Synth 8-226] default block is never used [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:92]
+WARNING: [Synth 8-614] signal 'Instruction' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:89]
+WARNING: [Synth 8-614] signal 'concat_plus' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:89]
+WARNING: [Synth 8-614] signal 'concat_minus' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'ID' (6#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ID.vhd:51]
+INFO: [Synth 8-3491] module 'EX' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/EX.vhd:34' bound to instance 'executia' of component 'EX' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/EX.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'EX' (7#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/EX.vhd:48]
+INFO: [Synth 8-3491] module 'MemoryData' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MemoryData.vhd:34' bound to instance 'Memory' of component 'MemoryData' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:231]
+INFO: [Synth 8-638] synthesizing module 'MemoryData' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MemoryData.vhd:43]
+INFO: [Synth 8-3491] module 'RAM' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RAM.vhd:34' bound to instance 'RAMU' of component 'RAM' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MemoryData.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RAM.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (8#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/RAM.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'MemoryData' (9#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/MemoryData.vhd:43]
+WARNING: [Synth 8-614] signal 'instr_o' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'pc_o' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'RD1' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'RD2' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'Ext_imm' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'ALURes' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'MemData' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+WARNING: [Synth 8-614] signal 'WDat' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:249]
+INFO: [Synth 8-3491] module 'ssg' declared at 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:35' bound to instance 'SSG1' of component 'SSG' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:277]
+INFO: [Synth 8-638] synthesizing module 'ssg' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:42]
+INFO: [Synth 8-226] default block is never used [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:55]
+WARNING: [Synth 8-614] signal 'digit' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:53]
+INFO: [Synth 8-226] default block is never used [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:67]
+INFO: [Synth 8-226] default block is never used [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'ssg' (10#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/ssg.vhd:42]
+WARNING: [Synth 8-614] signal 'reg_dst' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'branch' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'jump' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'mem_toReg' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'mem_wr' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'alu_src' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'reg_wr' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'ext_oper' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+WARNING: [Synth 8-614] signal 'alu_op' is read in the process but is not in the sensitivity list [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:279]
+INFO: [Synth 8-256] done synthesizing module 'test_env' (11#1) [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:45]
+WARNING: [Synth 8-3917] design test_env has port dp driven by constant 1
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[13]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[12]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[11]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[10]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[9]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[8]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[7]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[6]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[5]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[4]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr[3]
+WARNING: [Synth 8-3331] design ID has unconnected port Instruction[15]
+WARNING: [Synth 8-3331] design ID has unconnected port Instruction[14]
+WARNING: [Synth 8-3331] design ID has unconnected port Instruction[13]
+WARNING: [Synth 8-3331] design IFetch has unconnected port jump
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 319.777 ; gain = 108.594
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin I_F:adr_jump[15] to constant 0 [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:219]
+WARNING: [Synth 8-3295] tying undriven pin I_F:adr_jump[14] to constant 0 [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:219]
+WARNING: [Synth 8-3295] tying undriven pin I_F:adr_jump[13] to constant 0 [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:219]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:36 . Memory (MB): peak = 319.777 ; gain = 108.594
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/constrs_1/imports/test_env/New Text Document.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/test_env_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/test_env_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 613.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:52 ; elapsed = 00:01:21 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:52 ; elapsed = 00:01:21 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:01:21 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ROM" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/EX.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:282]
+WARNING: [Synth 8-327] inferring latch for variable 'afis_reg' [C:/Users/DanB/Desktop/ProcesorFinal/Mips16/test_env.srcs/sources_1/new/test_env.vhd:252]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:54 ; elapsed = 00:01:22 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   3 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	 257 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 9     
+	   8 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  14 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module test_env 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+Module MPG 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module ROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	 257 Input     16 Bit        Muxes := 1     
+Module IFetch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 8     
+Module ID 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+Module EX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   8 Input     16 Bit        Muxes := 1     
+	  14 Input      3 Bit        Muxes := 1     
+Module RAM 
+Detailed RTL Component Info : 
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module ssg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design test_env has port dp driven by constant 1
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[1]
+WARNING: [Synth 8-3332] Sequential element (led_reg[7]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[6]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[5]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[4]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[3]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[2]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[1]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (led_reg[0]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[15]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[14]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[13]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[12]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[11]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[10]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[9]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[8]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[7]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[6]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[5]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[4]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[3]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[2]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[1]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (afis_reg[0]) is unused and will be removed from module test_env.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:31 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object           | Inference | Size (Depth x Width) | Primitives      | 
++------------+----------------------+-----------+----------------------+-----------------+
+|test_env    | Memory/RAMU/RAM_reg  | Implied   | 8 x 16               | RAM16X1S x 16   | 
+|test_env    | ID1/RF1/reg_file_reg | Implied   | 8 x 16               | RAM32M x 6      | 
++------------+----------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:40 ; elapsed = 00:02:22 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:40 ; elapsed = 00:02:22 . Memory (MB): peak = 613.047 ; gain = 401.863
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:40 ; elapsed = 00:02:23 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:43 ; elapsed = 00:02:25 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:43 ; elapsed = 00:02:25 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:43 ; elapsed = 00:02:25 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:43 ; elapsed = 00:02:25 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:43 ; elapsed = 00:02:26 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:43 ; elapsed = 00:02:26 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    22|
+|3     |LUT1     |    91|
+|4     |LUT2     |    10|
+|5     |LUT3     |    15|
+|6     |LUT4     |    20|
+|7     |LUT5     |    50|
+|8     |LUT6     |    96|
+|9     |RAM16X1S |    16|
+|10    |RAM32M   |     6|
+|11    |FDCE     |    16|
+|12    |FDRE     |    38|
+|13    |IBUF     |     7|
+|14    |OBUF     |    20|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------+-----------+------+
+|      |Instance   |Module     |Cells |
++------+-----------+-----------+------+
+|1     |top        |           |   408|
+|2     |  ID1      |ID         |    23|
+|3     |    RF1    |RF         |    23|
+|4     |  I_F      |IFetch     |   193|
+|5     |  MPG1     |MPG        |    44|
+|6     |  MPG2     |MPG_0      |     4|
+|7     |  Memory   |MemoryData |    16|
+|8     |    RAMU   |RAM        |    16|
+|9     |  SSG1     |ssg        |    56|
+|10    |  executia |EX         |    42|
++------+-----------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:43 ; elapsed = 00:02:26 . Memory (MB): peak = 619.254 ; gain = 408.070
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:02 ; elapsed = 00:01:41 . Memory (MB): peak = 619.254 ; gain = 114.801
+Synthesis Optimization Complete : Time (s): cpu = 00:01:43 ; elapsed = 00:02:26 . Memory (MB): peak = 619.254 ; gain = 408.070
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 16 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 121 Warnings, 34 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:02:17 . Memory (MB): peak = 619.254 ; gain = 408.070
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DanB/Desktop/ProcesorFinal/Mips16/Mips16.runs/synth_1/test_env.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 619.254 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 15:37:52 2017...

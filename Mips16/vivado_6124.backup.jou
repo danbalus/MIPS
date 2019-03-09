@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 28 02:13:34 2017
+# Process ID: 6124
+# Current directory: C:/Users/DanB/Desktop/ProcesorFinal/Mips16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3548 C:\Users\DanB\Desktop\ProcesorFinal\Mips16\Mips16.xpr
+# Log file: C:/Users/DanB/Desktop/ProcesorFinal/Mips16/vivado.log
+# Journal file: C:/Users/DanB/Desktop/ProcesorFinal/Mips16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DanB/Desktop/ProcesorFinal/Mips16/Mips16.xpr
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
