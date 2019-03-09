@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 28 14:28:33 2017
+# Process ID: 1424
+# Current directory: C:/Users/Denisa/AC_LAB9/MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1376 C:\Users\Denisa\AC_LAB9\MIPS\MIPS_final.xpr
+# Log file: C:/Users/Denisa/AC_LAB9/MIPS/vivado.log
+# Journal file: C:/Users/Denisa/AC_LAB9/MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Denisa/AC_LAB9/MIPS/MIPS_final.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Denisa/Desktop/MIPS_final' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 790.844 ; gain = 130.297
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 15:13:26 2017...

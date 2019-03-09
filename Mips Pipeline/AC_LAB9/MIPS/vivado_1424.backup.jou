@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 28 14:28:33 2017
+# Process ID: 1424
+# Current directory: C:/Users/Denisa/AC_LAB9/MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1376 C:\Users\Denisa\AC_LAB9\MIPS\MIPS_final.xpr
+# Log file: C:/Users/Denisa/AC_LAB9/MIPS/vivado.log
+# Journal file: C:/Users/Denisa/AC_LAB9/MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Denisa/AC_LAB9/MIPS/MIPS_final.xpr

@@ -1,0 +1,4 @@
+jump sare 4 inst si mai trb facut sw
+progarmul face suma primelor 5 nr nat 1 +2+3+4+5 =15(F)
+in reg 1 pun 5 ca sa verific la branch cand 5=5 ca sa sara peste jump
+xor face registri 0

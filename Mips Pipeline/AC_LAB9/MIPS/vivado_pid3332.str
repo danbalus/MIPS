@@ -1,0 +1,78 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 3332
+
+Current time: 	4/20/17 10:13:56 PM EEST
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	Denisa
+User home directory: C:/Users/Denisa
+User working directory: C:/Users/Denisa/Desktop/MIPS_final
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Denisa/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Denisa/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	213 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 480 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Denisa\Desktop\MIPS_final\MIPS_final.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Denisa/Desktop/MIPS_final/MIPS_final.xpr 
+// [GUI Memory]: 37 MB (+36376kb) [00:00:05]
+// [Engine Memory]: 405 MB (+273480kb) [00:00:05]
+// Tcl Message: open_project C:/Users/Denisa/Desktop/MIPS_final/MIPS_final.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Satellite/Desktop/MIPS_final' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 70 MB (+32128kb) [00:00:06]
+// [Engine Memory]: 439 MB (+14439kb) [00:00:06]
+// [Engine Memory]: 472 MB (+11264kb) [00:00:08]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 480 MB. GUI used memory: 33 MB. Current time: 4/20/17 10:13:56 PM EEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 758.242 ; gain = 85.930 
+// Project name: MIPS_final; location: C:/Users/Denisa/Desktop/MIPS_final; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+closeMainWindow("MIPS_final - [C:/Users/Denisa/Desktop/MIPS_final/MIPS_final.xpr] - Vivado 2016.4"); // cd:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
